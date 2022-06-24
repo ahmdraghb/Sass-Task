@@ -1,0 +1,148 @@
+body {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.section {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.section .parent {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature {
+  width: 100%;
+  background-color: #eee;
+  margin: auto;
+}
+.feature .feature__ {
+  width: 80%;
+  margin: auto;
+}
+.feature .feature__ .feature__h {
+  color: black;
+  position: relative;
+  top: 10px;
+}
+.feature .feature__ .feature__p {
+  color: #666464;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.btn .btn__btn {
+  border: 3px solid #1d2127;
+  font-weight: bold;
+  background: transparent;
+  padding: 10px;
+  width: 120px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.btn .btn__btn:hover {
+  background-color: #1d2127;
+  color: white;
+}
+
+.card {
+  width: 240px;
+  height: 370px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid #d8d7d7;
+}
+.card__image {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+.card__image .card__img {
+  width: 100%;
+  transition: 0.5s;
+}
+.card__info {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: 0.5s;
+  background-color: white;
+  width: 100%;
+  height: 30%;
+}
+.card__info .card__h3 {
+  color: #1d2127;
+  font-weight: bold;
+  transition: 0.5s;
+}
+.card__info .card__para {
+  color: #666464;
+  line-height: 1px;
+  transition: 0.5s;
+}
+.card .card__icon {
+  font-size: 30px;
+  color: #1d2127;
+  transition: 0.6s;
+}
+.card:hover .card__img {
+  transform: scale(1.1);
+}
+.card:hover .card__info {
+  background-color: #008fe2;
+  color: white;
+}
+.card:hover .card__info .card__h3 {
+  color: white;
+}
+.card:hover .card__info .card__para {
+  color: white;
+}
+.card:hover .card__icon {
+  color: white;
+}
+
+.big__box {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  width: 26.6666666667%;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+}
+.box__image {
+  margin: 10px;
+}
+.box__text .box__head {
+  color: #008fe2;
+  margin-top: 10px;
+  cursor: pointer;
+}
+.box__text .box__info {
+  color: #666464;
+}
+
+/*# sourceMappingURL=style.css.map */
